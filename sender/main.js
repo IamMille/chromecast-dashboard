@@ -3,7 +3,7 @@
  */
 
 var applicationID = 'B2B7980C';
-var namespace = 'urn:x-cast:com.boombatower.chromecast-dashboard';
+var namespace = chrome.cast.media.DEFAULT_MEDIA_RECEIVER_APP_ID;
 var session = null;
 
 window['__onGCastApiAvailable'] = function(isAvailable) {
